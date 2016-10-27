@@ -21,7 +21,7 @@ function respond() {
 function postMessage() {
   var botResponse, options, body, botReq;
 
-  botResponse = "I";
+  botResponse = "She's a nice lady.";
 
   options = {
     hostname: 'api.groupme.com',
