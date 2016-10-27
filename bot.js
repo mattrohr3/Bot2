@@ -17,6 +17,7 @@ function respond() {
     this.res.end();
   }
 }
+
 function postMessage() {
   var botResponse, options, body, botReq;
 
