@@ -5,6 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
+      String[] parts = string.split(" ");
       botRegex = /er/;
 
   if(request.text && botRegex.test(request.text)) {
