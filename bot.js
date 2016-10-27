@@ -3,7 +3,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /where is|where are|when is|when are|how are we get|where do|do we have anything official|/;
+      botRegex = /where is|where are|when is|when are|how are we get|where do|do we have anything official/;
   
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
